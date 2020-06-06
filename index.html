@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Geometry Dash BoomBox</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      function playSong(song) {
+        if (song === 'Jumper') {
+          window.open('https://www.newgrounds.com/audio/listen/168734')
+        }
+        if (song === 'Random Song 05') {
+          window.open('https://www.newgrounds.com/audio/listen/633384')
+        }
+        if (song === 'Hexagon Force') {
+          window.open('https://www.newgrounds.com/audio/listen/568699')
+        }
+        if (song === 'Fingerdash') {
+          window.open('https://www.youtube.com/watch?v=CMyirzhwt8A')
+        }
+        if (song === 'Deadlocked') {
+          window.open('https://www.newgrounds.com/audio/listen/503731')
+        }
+        if (song === 'Stereo Madness') {
+          window.open('https://www.newgrounds.com/audio/listen/500476')
+        }
+        if (song === 'Random Song 01') {
+          window.open('https://www.newgrounds.com/audio/listen/633206')
+        }
+        if (song === 'Random Song 06') {
+          window.open('https://www.newgrounds.com/audio/listen/633385')
+        }
+      }
+      function selectSong() {
+        var song = prompt('Enter the name of the song:')
+        playSong(song)
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+      <img src="image01.png" alt="GD icon"><img src="image02.png" alt="Boombox :D">
+      <h1>The Geometry Dash BoomBox!</h1>
+      <p>Welcome to the Geometry Dash BoomBox! Here you can play the best songs <strong><u>IN THE WORLD!</u></strong> (<i>Guaranteed!</i>)</p>
+      <h2>Notes</h2>
+      <p><i>* All songs come from Waterflame, dj-Nate, RobTop, Forever Bound and F-777 on Newgrounds & YouTube.</i></p>
+      <p><i>** If you can't play a song, please contact me @ <a href="mailto:mattothepou@gmail.com">mattothepou@gmail.com</a> or check the spelling of the song.</i></p>
+      <h2>Songs**</h2>
+      <p>Jumper</p>
+      <p>Random Song 05</p>
+      <p>Hexagon Force</p>
+      <p>Fingerdash</p>
+      <p>Deadlocked</p>
+      <p>Stereo Madness</p>
+      <p>Random Song 01</p>
+      <p>Random Song 06</p>
+      <button onclick="selectSong()">Select song</button>
+    </center>
+  </body>
+</html>
